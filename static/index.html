@@ -1,0 +1,25 @@
+<!doctype html><html lang="de"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RebeccaCaseBot</title>
+<body style="font-family:system-ui;margin:2rem;max-width:780px">
+<h1>RebeccaCaseBot</h1>
+<p>Frage stellen. Antworten listen zuerst [GESICHERT], danach [UNBESTÄTIGT].</p>
+<form id="f"><textarea id="q" rows="4" style="width:100%" placeholder="Frage…"></textarea><br>
+<button>Fragen</button></form>
+<pre id="out" style="white-space:pre-wrap;border:1px solid #ddd;padding:1rem;border-radius:8px"></pre>
+<script>
+const API = "https://YOUR-RENDER-URL.onrender.com/ask"; // ← set to your API URL
+const f=document.getElementById('f'), q=document.getElementById('q'), out=document.getElementById('out');
+f.onsubmit = async (e)=>{e.preventDefault(); out.textContent="…frage Server…";
+  try{
+    const r = await fetch(API,{method:'POST',headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({question:q.value, top_k:6})});
+    const j = await r.json();
+    out.textContent = j.answer || JSON.stringify(j,null,2);
+  }catch(err){ out.textContent = "Fehler: "+err; }
+};
+</script>
+<footer style="margin-top:2rem;font-size:.9em;color:#555">
+<p><strong>Hinweis:</strong> Nur öffentlich verifizierte Informationen. Keine Aufforderung zu Hobby-Ermittlungen. Spekulationen werden markiert.</p>
+</footer>
+</body></html>

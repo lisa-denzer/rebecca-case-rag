@@ -1,0 +1,8 @@
+{"role": "fact", "date": "2019-02-17", "text": "Rebecca (15) übernachtet bei ihrer Schwester Jessica R. und deren Ehemann Florian R. in Berlin-Britz.", "status": "SECURED", "sources": ["RBB24 22.02.2019", "Tagesspiegel 19.02.2019"]}
+{"role": "fact", "date": "2019-02-18T07:46:00", "text": "Letzte Netzverbindung von Rebeccas Handy (Detach). Danach keine Aktivität.", "status": "SECURED", "sources": ["Polizei Berlin PK 27.02.2019", "RBB24 24.02.2019"]}
+{"role": "fact", "date": "2019-02-18", "text": "Florian R. fährt am Vormittag mit dem pinken Renault Twingo Richtung A12; Kennzeichenerfassung bestätigt.", "status": "SECURED", "sources": ["Spiegel 27.02.2019"]}
+{"role": "fact", "date": "2019-02-19", "text": "Zweite Fahrt des Renault Twingo Richtung A12; erneute Kennzeichenerfassung.", "status": "SECURED", "sources": ["RBB24 04.03.2019"]}
+{"role": "fact", "date": "2019-03-06", "text": "Im Twingo werden Fasern einer Wohnzimmerdecke festgestellt.", "status": "SECURED", "sources": ["RBB24 06.03.2019"]}
+{"role": "fact", "date": "2025-10-20", "text": "Durchsuchung des Großeltern-Grundstücks in Tauche/Lindenberg; Spuren gesichert, Auswertung dauert Wochen.", "status": "SECURED", "sources": ["GStA Berlin PM Nr. 249 (22.10.2025)", "RBB24 23.10.2025"]}
+{"role": "claim", "date": "2019-02-17", "text": "Rebecca sei am Montag krankgeschrieben gewesen.", "status": "UNCONFIRMED", "sources": ["Diverse Medienberichte ohne Primärquelle"]}
+{"role": "claim", "date": "2019-02-18", "text": "CCTV-Seitenstraße zeigt Twingo exakt 6 Minuten nach Telefonat der Mutter.", "status": "UNCONFIRMED", "sources": ["Forenbeiträge; Zeitstempel in Medien variierten"]}
